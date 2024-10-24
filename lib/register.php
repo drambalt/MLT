@@ -1,9 +1,9 @@
 <?php
+    session_start();
     $fName = $_POST['fName'];
     $lName = $_POST['lName'];
     $email = $_POST['email'];
     $password = md5($_POST['password']);
-    echo $password;
 
     require_once 'connect.php';
 
