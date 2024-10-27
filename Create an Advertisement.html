@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an Advertisement</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 360px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .header {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .subheader {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .photo-upload {
+      width: 100%;
+      height: 180px;
+      background-color: #333;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 16px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .small-input {
+      width: 48%;
+      display: inline-block;
+    }
+    .description {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      height: 80px;
+      resize: none;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      color: #888;
+      font-size: 24px;
+    }
+    .footer-icon {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">Create an advertisement</div>
+  <div class="subheader">Rent out your home</div>
+
+  <input class="photo-upload" type="file" name="file">
+
+
+  <input type="text" class="input-field" placeholder="Заголовок">
+
+  <div style="display: flex; justify-content: space-between;">
+    <input type="text" class="input-field small-input" placeholder="Цена">
+    <input type="text" class="input-field small-input" placeholder="Этаж">
+  </div>
+
+  <textarea class="description" placeholder="Описание"></textarea>
+
+  <div class="footer">
+    <div class="footer-icon">⭐</div>
+    <div class="footer-icon">🏠</div>
+    <div class="footer-icon">👤</div>
+  </div>
+</div>
+
+</body>
+</html>
