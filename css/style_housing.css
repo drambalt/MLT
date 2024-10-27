@@ -6,17 +6,23 @@
 }
 
 body {
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background-color: #F0F2FD;
+}
+
+header, main{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    margin: 0 auto;
 }
 
 .wrapper{
-    width: 30vw;
+    width: 26.5vw;
     margin: 2vw auto;
 }
 
 .profile_wrapper{
-    width: 30vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -34,6 +40,7 @@ body {
     height: 5.34vw;
     border: 1px solid black;
     border-radius: 100%;
+    box-shadow: black 0 0 10px;
 }
 
 .profile{
@@ -53,4 +60,44 @@ body {
     justify-content: space-between;
     width: 5vw;
     align-items: center;
+}
+
+.house_block{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.house_picture img{
+    width: 100%;
+    border-radius: 1vw 1vw 0 0;
+}
+
+.house_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.35vw;
+    background-color: #CFD4FF;
+    border-radius: 0 0 1vw 1vw;
+    line-height: 2vw;
+}
+
+.house_description{
+    margin: 0.5vw 1vw 0.5vw 1vw;
+    font-size: 0.8vw;
+}
+
+.house_name{
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.favorite_icon{
+    display: flex;
+    justify-content: end;
+}
+
+.house_price{
+    font-size: 1.2vw;
+    font-weight: 600;
 }

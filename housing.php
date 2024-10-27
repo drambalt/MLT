@@ -30,6 +30,27 @@
         </div>
     </div>
 </header>
+<main>
+    <div class="wrapper">
+        <div class="house_block">
+            <div class="house_picture">
+                <img src="img/house.jpg" alt="">
+            </div>
+            <div class="house_info">
+                <div class="house_description">
+                    <div class="house_name">Studio apartment</div>
+                    <div class="publication_date">Kostanay - 7 October 2024</div>
+                </div>
+                <div class="house_description">
+                    <div class="favorite_icon">
+                        <img src="img/favorite.svg" alt="">
+                    </div>
+                    <div class="house_price">$200/month</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 <script src="js/script.js"></script>
 </body>
 </html>
